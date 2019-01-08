@@ -196,6 +196,7 @@
 .sec2:hover,
 .sec3:hover {
   opacity: 0.5;
+  transition: all 0.4s;
 }
 
 .pricing span {
