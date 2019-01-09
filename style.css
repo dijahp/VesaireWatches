@@ -434,3 +434,103 @@ main#rosegold {
 .product-return h5 {
   padding-top: 20px;
 }
+
+/* Responsive - Media Queries  */
+
+/* Smartphones */
+@media screen and (max-width: 500px) {
+  main#rosegold {
+    box-sizing: border-box;
+    overflow: hidden;
+
+    padding-top: 10vh;
+  }
+
+  .description {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .firsthalf-descr img {
+    width: 400px;
+    height: 400px;
+    padding: 10px 0 40px 0;
+  }
+  .firsthalf-descr p {
+    color: #212121;
+    font-family: serif;
+    margin-bottom: 20px;
+  }
+
+  .images-section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .watch-name {
+    margin: 7px 7px 7px 0;
+    font-size: 14px;
+    font-family: "Merriweather", serif;
+    color: #bf9b30;
+  }
+
+  /* FULL COLLECTION */
+}
+
+/* Tablets and smaller laptops */
+@media screen and (max-width: 768px) {
+  main#rosegold {
+    box-sizing: border-box;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-top: 10vh;
+  }
+  .images-section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+  }
+  .images-section-full {
+    display: grid;
+    overflow: hidden;
+  }
+
+  /* FULL COLLECTION */
+  .images-section-full {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    overflow: hidden;
+  }
+  .images-section-full img {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .images-section-2 img {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+}
+
+/* Desktop, Laptops */
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  main#rosegold {
+    box-sizing: border-box;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 10vh;
+  }
+}
+
+/* XL Wide screens */
+@media screen and (min-width: 1171px) {
+  main#rosegold {
+    box-sizing: border-box;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 10vh;
+  }
+}
