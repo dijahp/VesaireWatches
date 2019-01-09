@@ -167,6 +167,11 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+.sec1 a,
+.sec2 a,
+.sec3 a {
+  text-decoration: none;
+}
 .images-section-2 img {
   width: 250px;
   margin: 0 auto;
@@ -315,7 +320,7 @@ form #increase {
 }
 
 form #input-wrap {
-  margin: 0px;
+  margin: 0;
   padding: 0px;
 }
 
@@ -351,7 +356,81 @@ main#rosegold {
   grid-template-columns: 1fr 1fr;
 }
 
+.short-url {
+  color: #212121;
+}
+
 .firsthalf-descr img {
   width: 498px;
   height: 498px;
+  padding: 10px 0 40px 0;
+}
+.firsthalf-descr p {
+  color: #212121;
+  font-family: serif;
+}
+
+.secondhalf-descr h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+  line-height: 1.8;
+  color: #212121;
+}
+.secondhalf-descr h6 {
+  font-weight: 100;
+  font-size: 13px;
+  color: #7f7f7f;
+}
+.header-sz {
+  font-size: 1.3rem;
+}
+
+.cost {
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.quantity p {
+  margin-bottom: 13px;
+  color: #7f7f7f;
+}
+
+.quantity button {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  background: #212121;
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+}
+.quantity button:hover {
+  background: #21212179;
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+.product-info {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #212121;
+  color: #212121;
+}
+
+.product-info h5,
+.product-return h5 {
+  font-size: 1.3rem;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 0;
+}
+.product-info p,
+.product-return p {
+  border-bottom: 1px solid #212121;
+  padding-bottom: 30px;
+}
+
+.product-return h5 {
+  padding-top: 20px;
 }
