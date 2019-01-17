@@ -435,6 +435,24 @@ main#rosegold {
   padding-top: 20px;
 }
 
+/* About Section */
+
+.about-section {
+  margin: 3rem 0 1rem 0;
+  text-align: center;
+}
+main#about img {
+  width: 600px;
+  height: 600px;
+}
+
+main#about p {
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 17px;
+  color: #7d756b;
+}
+
 /* Responsive - Media Queries  */
 
 /* Smartphones */
