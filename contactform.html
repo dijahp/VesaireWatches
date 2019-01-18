@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Vesiare Watch | Rose Gold</title>
+    <title>Vesiare Watch | About</title>
     <link rel="stylesheet" href="../style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Merriweather|Raleway:100"
@@ -37,55 +37,27 @@
       </div>
     </div>
 
-    <main id="rosegold">
-      <div class="description">
-        <div class="firsthalf-descr">
-          <p class="short-url">Home / Rose Gold</p>
-          <img src="../IMG/womenwatch.jpg" alt="" />
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quae vero quas, impedit iure veritatis beatae hic quisquam nemo maiores.
-          </p>
+    <main id="contact">
+      <h1>Contact Us</h1>
+      <p>
+        Got a question? We'd love to hear from you. Send us a message and we'll
+        respond as soon as possible
+      </p>
+      <form action="mail.php" method="POST">
+        <p>Name</p>
+        <input type="text" class="form-input" name="name" />
+        <p>Email</p>
+        <input type="text" class="form-input" name="email" />
+        <p>Message</p>
+        <textarea name="message" cols="40" rows="6"></textarea>
+        <div class="form-btns">
+          <input class="contact-send" type="submit" value="Send" /><input
+            class="contact-clear"
+            type="reset"
+            value="Clear"
+          />
         </div>
-        <div class="secondhalf-descr">
-          <h2>Light Chrono - Rose Gold</h2>
-          <h6>SKU: 0001</h6>
-          <p class="cost header-sz">$970</p>
-
-          <div class="quantity">
-            <p>Quantity</p>
-            <form#input-form>
-              <div
-                class="value-button"
-                id="decrease"
-                onclick="decreaseValue()"
-                value="Decrease Value"
-              >
-                -
-              </div>
-              <input type="number" id="number" value="0" />
-              <div
-                class="value-button"
-                id="increase"
-                onclick="increaseValue()"
-                value="Increase Value"
-              >
-                +
-              </div>
-              <button class="addtocart">Add to Cart</button>
-            </form>
-        </div>
-            <!-- Product information -->
-            <div class="product-info">
-                <h5 class="header-sz">Product Info</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut porro fugit facere facilis. Eaque maxime harum assumenda, exercitationem neque aliquam in a expedita nemo veniam ut doloremque voluptates rem, dolore iusto sunt. Accusamus, repellendus et accusantium nulla ipsam labore architecto quisquam nostrum totam dolorem officiis eum distinctio iste perferendis, repellat ut aliquam cum. Deleniti est mollitia eaque sit quae eum!</p>
-            </div>
-            <!-- Return and Return Policy-->
-            <div class="product-return">
-                    <h5 class="header-sz">Refund and Return Policy</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut expedita explicabo accusamus, optio rem dolore pariatur quia perferendis modi reiciendis, libero, repellat sequi. Mollitia earum commodi deserunt natus dolorum id.</p>
-                </div>
-        </div>
-      </div>
+      </form>
     </main>
 
     <footer>
